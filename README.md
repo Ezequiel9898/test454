@@ -37,7 +37,7 @@ cd traducoes-minecraft-mods
 
 2. Instale as dependências:
 ```bash
-pip install requests
+pip install -r requirements.txt
 ```
 
 3. Configure seus mods no arquivo `mods.json`:

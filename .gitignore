@@ -21,24 +21,19 @@ wheels/
 .installed.cfg
 *.egg
 
-# Arquivos do sistema
-.DS_Store
-Thumbs.db
+# Logs
+*.log
+logs/
 
-# IDEs e editores
+# Backups
+backups/
+
+# IDEs
 .idea/
 .vscode/
 *.swp
 *.swo
-*~
 
-# Ambiente virtual
-venv/
-ENV/
-
-# Arquivos de log
-*.log
-
-# Arquivos temporários
-temp/
-tmp/
+# Sistema
+.DS_Store
+Thumbs.db
